@@ -16,4 +16,4 @@ RUN apk add --no-cache libc6-compat
 
 COPY --from=builder /app/go-w /usr/local/bin/go-w
 
-ENTRYPOINT ["go-w"]
+CMD ["go-w"]
