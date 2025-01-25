@@ -1,0 +1,4 @@
+# Ignore the Go binary
+go-w
+
+# Ignore Go module files
